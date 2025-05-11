@@ -428,6 +428,13 @@
       
         zoomTargets.forEach(el => observer.observe(el));
       </script>
+     <script>
+  document.getElementById("mobile-menu-open").addEventListener("click", function () {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+  });
+</script>
+
       
   
   
